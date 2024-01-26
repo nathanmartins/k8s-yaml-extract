@@ -21,3 +21,13 @@ It can work just by piping in from STDIN:
 or a static existing file as a parameter:
 
 `k8s-yaml-extract --name=my-app --kind=deployment example/out.yaml`
+
+## Installation
+
+In order to use the `k8s-yaml-extract` command-line tool, you need to have Go (version 1.21) installed on your system.
+
+`go install github.com/nathanmartins/k8s-yaml-extractter@latest`
+
+or download the binary over at:
+
+https://github.com/nathanmartins/k8s-yaml-extractter/releases/latest
