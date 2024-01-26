@@ -2,13 +2,14 @@
 
 `k8s-yaml-extract`, is a powerful command-line interface (CLI) tool built for extraction of Kubernetes YAML manifests. This tool streamlines the process of filtering YAML files based on specified criteria, offering enhanced flexibility and control.
 
-Key Features:
+## Usage
+
+Flags:
 
 - `--name`: Extract YAMLs matching a specific resource name. ( REQUIRED )
 - `--kind`: Extract YAMLs based on a particular Kubernetes resource kind.
 
-Combined Filtering: Use both --name and --kind flags simultaneously for granular extraction.
-
+Combined Filtering: Use both `--name` and `--kind` flags simultaneously for even more granular extraction.
 
 ## Examples
 
