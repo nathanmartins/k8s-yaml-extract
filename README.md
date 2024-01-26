@@ -4,8 +4,8 @@
 
 Key Features:
 
-- `--name` Flag: Extract YAMLs matching a specific resource name. ( REQUIRED )
-- `--kind` Flag: Extract YAMLs based on a particular Kubernetes resource kind.
+- `--name`: Extract YAMLs matching a specific resource name. ( REQUIRED )
+- `--kind`: Extract YAMLs based on a particular Kubernetes resource kind.
 
 Combined Filtering: Use both --name and --kind flags simultaneously for granular extraction.
 
