@@ -10,3 +10,5 @@ cmake-build-*/
 out/
 .idea/
 k8s-yaml-extract
+dist/
+
