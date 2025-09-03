@@ -2,11 +2,12 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/spf13/cobra"
 	"os"
+	"strings"
+
+	"github.com/spf13/cobra"
 	"sigs.k8s.io/kustomize/kyaml/kio"
 	"sigs.k8s.io/kustomize/kyaml/yaml"
-	"strings"
 )
 
 var extractKinds string
@@ -18,7 +19,7 @@ func init() {
 	rootCmd.Flags().StringVar(&extractName, "name", "", "the name of object you want to extract")
 }
 
-// rootCmd represents the base command when called without any subcommands
+// rootCmd represents the base command when called without any subcommands.
 var rootCmd = &cobra.Command{
 	Use:   "k8s-yaml-extract --kind=Deployment [--name=deploy-name]",
 	Short: "This CLI tool allows extracting Kubernetes YAMLs from YAML lists based on specified criteria",
