@@ -1,5 +1,11 @@
 # k8s-yaml-extract
 
+[![CI](https://github.com/nathanmartins/k8s-yaml-extract/actions/workflows/ci.yaml/badge.svg)](https://github.com/nathanmartins/k8s-yaml-extract/actions/workflows/ci.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nathanmartins/k8s-yaml-extract)](https://goreportcard.com/report/github.com/nathanmartins/k8s-yaml-extract)
+[![License](https://img.shields.io/github/license/nathanmartins/k8s-yaml-extract)](https://github.com/nathanmartins/k8s-yaml-extract/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/v/release/nathanmartins/k8s-yaml-extract)](https://github.com/nathanmartins/k8s-yaml-extract/releases/latest)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/nathanmartins/k8s-yaml-extract)](https://github.com/nathanmartins/k8s-yaml-extract/blob/main/go.mod)
+
 `k8s-yaml-extract`, is a powerful command-line interface (CLI) tool built for extraction of Kubernetes YAML manifests. This tool streamlines the process of filtering YAML files based on specified criteria, offering enhanced flexibility and control.
 
 ## Usage
